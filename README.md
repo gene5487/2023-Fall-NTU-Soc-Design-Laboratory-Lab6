@@ -11,9 +11,8 @@
 1. Copy all files under rtl folder, paste and overwrite to lab-wlos_baseline\vivado\vvd_srcs\caravel_soc\rtl\user\ 
 2. Replace lab-wlos_baseline/vivado/vvd_caravel_fpga_40mhz.tcl by our modified version
 
-
-## To verify UART on FPGA
-Run jupyternote_book/caravel_fpga_uart.ipynb
-
-## To verify firmware on FPGA
+## To verify UART and firmware on FPGA
 Run jupyternote_book/caravel_fpga_uart_verify.ipynb
+
+## To measure UART loopback latency on FPGA
+Run jupyternote_book/caravel_fpga_uart.ipynb
